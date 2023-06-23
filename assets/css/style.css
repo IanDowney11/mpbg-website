@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #00cc81;
+  color: #444444;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #00c27b;
+  background: #444444;
   color: #fff;
 }
 
@@ -156,7 +156,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #444444;
   color: #fff;
 }
 
@@ -246,7 +246,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -1166,49 +1166,42 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Faq
+# events
 --------------------------------------------------------------*/
-.faq {
+.events {
   padding: 0;
 }
 
-.faq .content {
-  padding: 60px 100px 0 100px;
-}
 
-.faq .content h3 {
+.events .content h3 {
   font-weight: 400;
   font-size: 34px;
 }
 
-.faq .content h4 {
+.events .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
 
-.faq .content p {
+.events .content p {
   font-size: 15px;
   color: #848484;
 }
 
-.faq .img {
+.events .img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 400px;
 }
 
-.faq .accordion-list {
-  padding: 0 100px 60px 100px;
-}
-
-.faq .accordion-list ul {
+.events .accordion-list ul {
   padding: 0;
   list-style: none;
 }
 
-.faq .accordion-list li+li {
+.events .accordion-list li+li {
   margin-top: 15px;
 }
 
@@ -1219,7 +1212,7 @@ section {
   border-radius: 4px;
 }
 
-.faq .accordion-list a {
+.events .accordion-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -1231,31 +1224,31 @@ section {
   cursor: pointer;
 }
 
-.faq .accordion-list i {
+.events .accordion-list i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.faq .accordion-list p {
+.events .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.faq .accordion-list .icon-show {
+.events .accordion-list .icon-show {
   display: none;
 }
 
-.faq .accordion-list a.collapsed {
+.events .accordion-list a.collapsed {
   color: #343a40;
 }
 
-.faq .accordion-list a.collapsed:hover {
+.events .accordion-list a.collapsed:hover {
   color: #F7931B;
 }
 
-.faq .accordion-list a.collapsed .icon-show {
+.events .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
 
@@ -1265,25 +1258,25 @@ section {
 
 @media (max-width: 1024px) {
 
-  .faq .content,
-  .faq .accordion-list {
+  .events .content,
+  .events .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .faq {
+  .events {
     /* img {
       padding-top: 30px;
     } */
   }
 
-  .faq .content {
+  .events .content {
     padding-top: 30px;
   }
 
-  .faq .accordion-list {
+  .events .accordion-list {
     padding-bottom: 30px;
   }
 }
@@ -1540,4 +1533,10 @@ section {
   white-space: normal;
   font-size: .9em;
   width: 3em;
+}
+
+.intro-text{
+
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
